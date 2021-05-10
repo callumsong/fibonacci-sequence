@@ -1,0 +1,5 @@
+.pytest_cache
+.DS_Store
+.idea/
+handlers/__pycache__
+tests/__pycache__
