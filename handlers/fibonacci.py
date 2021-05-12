@@ -1,3 +1,6 @@
+import logging
+
+
 def get_fibonacci_sequence(number):
     previous = 0
     latest = 1
@@ -5,4 +8,5 @@ def get_fibonacci_sequence(number):
         temp = latest
         latest = previous + latest
         previous = temp
+    logging.info("Fibonacci Number is " + str(previous))
     return {"value": previous}
