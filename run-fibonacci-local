@@ -1,0 +1,7 @@
+#!/bin/bash
+
+pip3 install requirements.txt
+
+pytest
+
+python3 app.py

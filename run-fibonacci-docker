@@ -1,0 +1,6 @@
+#!/bin/bash
+
+pip3 install docker docker-compose
+
+docker build --tag fibonacci-sequence .
+docker-compose up
